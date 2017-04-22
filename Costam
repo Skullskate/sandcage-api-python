@@ -1,0 +1,90 @@
+
+C:\Users\Ja\Desktop\E-Clipse\_SERWER\Serwer>java -Xms1024M -Xmx2048M -jar silnik
+.jar -o false
+Loading libraries, please wait...
+[14:17:43 INFO]: Starting minecraft server version 1.10.2
+[14:17:44 INFO]: Loading properties
+[14:17:44 INFO]: Default game type: SURVIVAL
+[14:17:44 INFO]: Generating keypair
+[14:17:44 INFO]: Starting Minecraft server on 127.0.0.1:25565
+[14:17:44 INFO]: Using default channel type
+[14:17:45 INFO]: This server is running CraftBukkit version git-Bukkit-e20928f (
+MC: 1.10.2) (Implementing API version 1.10.2-R0.1-SNAPSHOT)
+[14:17:45 INFO]: [NaukaPisaniaPluginow] Loading NaukaPisaniaPluginow v1.0
+[14:17:45 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:17:45 WARN]: The server will make no attempt to authenticate usernames. Bewa
+re.
+[14:17:45 WARN]: While this makes the game possible to play without internet acc
+ess, it also opens up the ability for hackers to connect with any username they
+choose.
+[14:17:45 WARN]: To change this, set "online-mode" to "true" in the server.prope
+rties file.
+[14:17:45 INFO]: Preparing level "world"
+[14:17:46 INFO]: Preparing start region for level 0 (Seed: -567127684772799024)
+[14:17:48 INFO]: Preparing spawn area: 0%
+[14:17:49 INFO]: Preparing spawn area: 38%
+[14:17:50 INFO]: Preparing spawn area: 74%
+[14:17:50 INFO]: Preparing start region for level 1 (Seed: -567127684772799024)
+[14:17:51 INFO]: Preparing spawn area: 33%
+[14:17:52 INFO]: Preparing spawn area: 76%
+[14:17:53 INFO]: Preparing start region for level 2 (Seed: -567127684772799024)
+[14:17:54 INFO]: [NaukaPisaniaPluginow] Enabling NaukaPisaniaPluginow v1.0
+[14:17:54 INFO]: Uruchamianie...
+[14:17:54 ERROR]: Error occurred while enabling NaukaPisaniaPluginow v1.0 (Is it
+ up to date?)
+java.lang.IllegalArgumentException: Plugin already initialized!
+        at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader
+.java:98) ~[Silnik.jar:git-Bukkit-e20928f]
+        at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:67) ~[Silnik
+.jar:git-Bukkit-e20928f]
+        at me.wakal.naukapisaniapluginow.Main.<init>(Main.java:11) ~[?:?]
+        at me.wakal.naukapisaniapluginow.Main.onEnable(Main.java:16) ~[?:?]
+        at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:292) ~[S
+ilnik.jar:git-Bukkit-e20928f]
+        at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader
+.java:329) [Silnik.jar:git-Bukkit-e20928f]
+        at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManage
+r.java:404) [Silnik.jar:git-Bukkit-e20928f]
+        at org.bukkit.craftbukkit.v1_10_R1.CraftServer.enablePlugin(CraftServer.
+java:358) [Silnik.jar:git-Bukkit-e20928f]
+        at org.bukkit.craftbukkit.v1_10_R1.CraftServer.enablePlugins(CraftServer
+.java:320) [Silnik.jar:git-Bukkit-e20928f]
+        at net.minecraft.server.v1_10_R1.MinecraftServer.t(MinecraftServer.java:
+404) [Silnik.jar:git-Bukkit-e20928f]
+        at net.minecraft.server.v1_10_R1.MinecraftServer.l(MinecraftServer.java:
+369) [Silnik.jar:git-Bukkit-e20928f]
+        at net.minecraft.server.v1_10_R1.MinecraftServer.a(MinecraftServer.java:
+324) [Silnik.jar:git-Bukkit-e20928f]
+        at net.minecraft.server.v1_10_R1.DedicatedServer.init(DedicatedServer.ja
+va:243) [Silnik.jar:git-Bukkit-e20928f]
+        at net.minecraft.server.v1_10_R1.MinecraftServer.run(MinecraftServer.jav
+a:514) [Silnik.jar:git-Bukkit-e20928f]
+        at java.lang.Thread.run(Unknown Source) [?:1.8.0_91]
+Caused by: java.lang.IllegalStateException: Initial initialization
+        at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader
+.java:101) ~[Silnik.jar:git-Bukkit-e20928f]
+        at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:67) ~[Silnik
+.jar:git-Bukkit-e20928f]
+        at me.wakal.naukapisaniapluginow.Main.<init>(Main.java:11) ~[?:?]
+        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+ ~[?:1.8.0_91]
+        at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+ ~[?:1.8.0_91]
+        at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Sou
+rce) ~[?:1.8.0_91]
+        at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_9
+1]
+        at java.lang.Class.newInstance(Unknown Source) ~[?:1.8.0_91]
+        at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.jav
+a:52) ~[Silnik.jar:git-Bukkit-e20928f]
+        at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.j
+ava:127) ~[Silnik.jar:git-Bukkit-e20928f]
+        at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.
+java:328) ~[Silnik.jar:git-Bukkit-e20928f]
+        at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager
+.java:251) ~[Silnik.jar:git-Bukkit-e20928f]
+        at org.bukkit.craftbukkit.v1_10_R1.CraftServer.loadPlugins(CraftServer.j
+ava:295) ~[Silnik.jar:git-Bukkit-e20928f]
+        at org.bukkit.craftbukkit.v1_10_R1.CraftServer.<init>(CraftServer.java:2
+57) ~[Silnik.jar:git-Bukkit-e20928f]
+      
